@@ -182,7 +182,6 @@
 ---
 
 #[
-  #set page(margin: (x: 96pt, y: 48pt))
   #set align(center + horizon)
 
   #set text(size: 24pt)
@@ -200,8 +199,9 @@
   ```
 ]
 
+---
+
 #[
-  #set page(margin: (x: 96pt, y: 48pt))
   #set align(center + horizon)
 
   #set text(size: 24pt)
@@ -224,6 +224,8 @@
   ECHO string("Odawara!\n")
   ```
 ]
+
+---
 
 #[
   #set text(size: 20pt)
@@ -292,7 +294,6 @@
 
 #[
   #set text(size: 20pt)
-  #set page(margin: (x: 96pt, y: 48pt))
 
   ```c
   // xdebug: src/debugger/handler_dbgp.c
@@ -310,6 +311,8 @@
   }
   ```
 ]
+
+---
 
 #[
   #set align(center + horizon)

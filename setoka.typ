@@ -33,6 +33,8 @@
     config-page(
       header: header,
       footer: footer,
+      header-ascent: 0em,
+      footer-descent: 0em,
     ),
   )
   touying-slide(self: self, ..args)
@@ -119,7 +121,7 @@
   show: touying-slides.with(
     config-page(
       paper: "presentation-" + aspect-ratio,
-      margin: 2em,
+      margin: (x: 2em, y: 1.125em),
     ),
     config-common(
       slide-fn: slide,
